@@ -2,6 +2,7 @@ import { StyledNavbar } from "../styled-components";
 import hambBtn from "../assets/hamb.svg";
 import closeBtn from "../assets/close.svg";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,9 +16,21 @@ export const Navbar = () => {
       <h1>Textil Gluck</h1>
 
       <ul className={menuOpen ? "open" : ""}>
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Contacto</li>
+        <li>
+          <NavLink to="/" onClick={toggleMenu}>
+            Inicio
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/productos" onClick={toggleMenu}>
+            Productos
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contacto" onClick={toggleMenu}>
+            Contacto
+          </NavLink>
+        </li>
       </ul>
 
       <div className="menu-btn-container" onClick={toggleMenu}>

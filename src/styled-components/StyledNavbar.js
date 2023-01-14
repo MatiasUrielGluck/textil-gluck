@@ -44,6 +44,11 @@ export const StyledNavbar = styled.nav`
       &:hover {
         transform: scale(110%);
       }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 
