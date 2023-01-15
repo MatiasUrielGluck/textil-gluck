@@ -14,6 +14,11 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+  a:first-of-type {
+    text-decoration: none;
+    color: black;
+  }
+
   ul {
     display: flex;
     flex-flow: row nowrap;

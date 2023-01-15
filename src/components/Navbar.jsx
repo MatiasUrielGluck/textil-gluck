@@ -13,7 +13,9 @@ export const Navbar = () => {
 
   return (
     <StyledNavbar>
-      <h1>Textil Gluck</h1>
+      <NavLink to="/">
+        <h1>Textil Gluck</h1>
+      </NavLink>
 
       <ul className={menuOpen ? "open" : ""}>
         <li>
