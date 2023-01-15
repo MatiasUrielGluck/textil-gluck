@@ -2,7 +2,7 @@ import styled from "styled-components";
 import background from "../../../assets/background.webp";
 
 export const StyledPresentation = styled.div`
-  min-height: 300px;
+  min-height: 400px;
   position: relative;
   display: flex;
   justify-content: center;
