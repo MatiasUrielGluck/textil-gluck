@@ -1,13 +1,13 @@
-import React from 'react'
-import { Navbar } from '../../components'
-import { Presentation } from './components'
+import React from "react";
+import { Navbar } from "../../components";
+import { MapSection, Presentation } from "./components";
 
 export const HomePage = () => {
   return (
     <div>
-        <Navbar />
-        <Presentation />
-        
+      <Navbar />
+      <Presentation />
+      <MapSection />
     </div>
-  )
-}
+  );
+};
