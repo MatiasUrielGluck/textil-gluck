@@ -9,6 +9,10 @@ export const StyledPresentation = styled.div`
   align-items: center;
   flex-flow: column nowrap;
 
+  @media (width < 768px) {
+    padding: 12px;
+  }
+
   &::before {
     content: "";
     background-image: url(${background});
