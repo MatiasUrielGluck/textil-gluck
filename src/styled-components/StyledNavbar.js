@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 export const StyledNavbar = styled.nav`
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: sticky;
+  z-index: 150;
   padding: 20px;
   background: #ff6700;
   display: flex;
@@ -55,15 +60,15 @@ export const StyledNavbar = styled.nav`
   .menu-btn-container {
     z-index: 200;
     display: none;
-  
-    @media (width < 768px) {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
 
-        img {
-            width: 100%;
-        }
+    @media (width < 768px) {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 `;
