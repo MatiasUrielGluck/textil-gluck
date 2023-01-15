@@ -1,4 +1,7 @@
 import whatsapp from "../assets/whatsapp.svg";
+import close from "../assets/close.svg";
+import hamb from "../assets/hamb.svg";
+import background from "../assets/background.webp";
 
 export const products = [
   {
@@ -6,19 +9,19 @@ export const products = [
     title: "Producto de prueba",
   },
   {
-    img: whatsapp,
+    img: close,
     title: "Producto de prueba",
   },
   {
-    img: whatsapp,
+    img: hamb,
     title: "Producto de prueba",
   },
   {
-    img: whatsapp,
+    img: background,
     title: "Producto de prueba",
   },
   {
-    img: whatsapp,
+    img: close,
     title: "Producto de prueba",
   },
   {
