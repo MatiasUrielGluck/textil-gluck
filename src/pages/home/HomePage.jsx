@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, WhatsappBtn } from "../../components";
+import { Footer, Navbar, WhatsappBtn } from "../../components";
 import { MapSection, Presentation } from "./components";
 
 export const HomePage = () => {
@@ -9,6 +9,7 @@ export const HomePage = () => {
       <Presentation />
       <MapSection />
       <WhatsappBtn />
+      <Footer />
     </div>
   );
 };
