@@ -5,6 +5,7 @@ export const Footer = () => {
     <StyledFooter>
       <div className="left-container">
         <p>TEXTIL GLUCK</p>
+        <p>Tel: 1159244579</p>
       </div>
       <div className="right-container">
         <a href="https://www.facebook.com/TEXTILGLUCK" target="_blank">

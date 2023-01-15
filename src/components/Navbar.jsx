@@ -26,11 +26,6 @@ export const Navbar = () => {
             Productos
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/contacto" onClick={toggleMenu}>
-            Contacto
-          </NavLink>
-        </li>
       </ul>
 
       <div className="menu-btn-container" onClick={toggleMenu}>

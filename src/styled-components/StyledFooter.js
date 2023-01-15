@@ -17,9 +17,13 @@ export const StyledFooter = styled.div`
     }
 
     .left-container {
-        p {
+        p:first-of-type {
             font-weight: 700;
             letter-spacing: 1.5px;
+        }
+
+        p {
+            text-align: center;
         }
     }
 
