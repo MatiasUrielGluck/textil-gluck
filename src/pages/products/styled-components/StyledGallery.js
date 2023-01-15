@@ -24,7 +24,7 @@ export const StyledGallery = styled.div`
       border: 1px solid #d3d3d3;
       border-radius: 6px;
       width: 100%;
-      height: 500px;
+      height: 420px;
       padding: 24px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       transition: all 0.3s ease;
