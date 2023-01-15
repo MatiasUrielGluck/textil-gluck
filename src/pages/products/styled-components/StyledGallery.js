@@ -24,7 +24,6 @@ export const StyledGallery = styled.div`
       transition: all 0.3s ease;
 
       &:hover {
-        transform: scale(105%);
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       }
 
