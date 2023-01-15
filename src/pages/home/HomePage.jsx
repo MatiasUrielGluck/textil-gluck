@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../components";
+import { Navbar, WhatsappBtn } from "../../components";
 import { MapSection, Presentation } from "./components";
 
 export const HomePage = () => {
@@ -8,6 +8,7 @@ export const HomePage = () => {
       <Navbar />
       <Presentation />
       <MapSection />
+      <WhatsappBtn />
     </div>
   );
 };
