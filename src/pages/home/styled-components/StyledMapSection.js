@@ -5,7 +5,13 @@ export const StyledMapSection = styled.div`
 
   h1 {
     text-align: center;
+    margin-bottom: 8px;
+  }
+
+  p {
+    text-align: center;
     margin-bottom: 24px;
+    letter-spacing: 1px;
   }
 
   .map-container {

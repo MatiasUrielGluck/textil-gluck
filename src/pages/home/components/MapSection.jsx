@@ -4,6 +4,7 @@ export const MapSection = () => {
   return (
     <StyledMapSection>
       <h1>Visitá nuestro local</h1>
+      <p>Estamos en Lavalle 2188</p>
 
       <div className="map-container">
         <iframe
