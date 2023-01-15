@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledNavbar = styled.nav`
-  padding: 12px;
+  padding: 20px;
   background: #ff6700;
   display: flex;
   flex-flow: row nowrap;
@@ -12,7 +12,7 @@ export const StyledNavbar = styled.nav`
   ul {
     display: flex;
     flex-flow: row nowrap;
-    gap: 24px;
+    gap: 32px;
     list-style-type: none;
 
     @media (width < 768px) {
