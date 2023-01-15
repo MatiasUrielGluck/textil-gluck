@@ -1,7 +1,6 @@
 import React from "react";
 import { StyledGallery } from "../styled-components";
-
-import whatsapp from "../../../assets/whatsapp.svg";
+import { products } from "../../../data/products";
 
 export const Gallery = () => {
   return (
@@ -10,32 +9,16 @@ export const Gallery = () => {
         <h1>Nuestros productos</h1>
 
         <div className="gallery-container">
-          <div className="card">
-            <div className="image">
-              <img src={whatsapp} alt="" />
+          {products.map((product, index) => (
+            <div className="card" key={index}>
+              <div className="image">
+                <img src={product.img} alt="" />
+              </div>
+              <div className="title">
+                <p>{product.title}</p>
+              </div>
             </div>
-            <div className="title">
-              <p>Producto de prueba</p>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="image">
-              <img src={whatsapp} alt="" />
-            </div>
-            <div className="title">
-              <p>Producto de prueba</p>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="image">
-              <img src={whatsapp} alt="" />
-            </div>
-            <div className="title">
-              <p>Producto de prueba</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </StyledGallery>

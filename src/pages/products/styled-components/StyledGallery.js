@@ -12,8 +12,12 @@ export const StyledGallery = styled.div`
     padding: 24px;
     display: grid;
     gap: 36px;
-    grid-template-columns: repeat(auto-fill, 140px);
+    grid-template-columns: repeat(auto-fill, 300px);
     justify-content: center;
+
+    @media (width < 768px) {
+        grid-template-columns: repeat(auto-fill, 140px);
+    }
 
     .card {
       border: 1px solid #d3d3d3;
