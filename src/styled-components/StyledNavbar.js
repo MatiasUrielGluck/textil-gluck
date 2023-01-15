@@ -38,6 +38,10 @@ export const StyledNavbar = styled.nav`
       &.open {
         transform: translateX(0%);
       }
+
+      li {
+        font-size: 24px !important;
+      }
     }
 
     li {
